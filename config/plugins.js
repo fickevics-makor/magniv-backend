@@ -1,4 +1,3 @@
-// DEPLOYED
 
 module.exports = ({ env }) => ({
   // ...
@@ -14,5 +13,4 @@ module.exports = ({ env }) => ({
       delete: {},
     },
   },
-  // ...
 });
