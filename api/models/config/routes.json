@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/models",
+      "handler": "models.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/models",
+      "handler": "models.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/models",
+      "handler": "models.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

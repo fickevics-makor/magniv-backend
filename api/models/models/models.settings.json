@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "models",
+  "info": {
+    "name": "Models"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "ShortDescription": {
+      "type": "text",
+      "required": false
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Instagram": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
