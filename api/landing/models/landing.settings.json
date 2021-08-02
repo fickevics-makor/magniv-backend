@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landings",
+  "info": {
+    "name": "Landing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "marketing": {
+      "type": "string"
+    },
+    "service1": {
+      "type": "string"
+    },
+    "service2": {
+      "type": "string"
+    },
+    "service3": {
+      "type": "string"
+    },
+    "service4": {
+      "type": "string"
+    },
+    "service5": {
+      "type": "string"
+    },
+    "about": {
+      "type": "string"
+    },
+    "aboutDescription": {
+      "type": "text"
+    },
+    "aboutDescription2": {
+      "type": "text"
+    },
+    "process": {
+      "type": "string"
+    },
+    "process1": {
+      "type": "string"
+    },
+    "process2": {
+      "type": "string"
+    },
+    "process3": {
+      "type": "string"
+    },
+    "process4": {
+      "type": "string"
+    },
+    "process5": {
+      "type": "string"
+    },
+    "process6": {
+      "type": "string"
+    },
+    "contactHeader": {
+      "type": "string"
+    },
+    "contactDescription": {
+      "type": "text"
+    },
+    "contactText": {
+      "type": "text"
+    }
+  }
+}

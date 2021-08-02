@@ -1,3 +1,5 @@
+// DEPLOYED
+
 module.exports = ({ env }) => ({
   // ...
   upload: {
