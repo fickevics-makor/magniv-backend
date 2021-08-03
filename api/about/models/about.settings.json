@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Description_2": {
+      "type": "text"
+    },
+    "Process": {
+      "type": "string",
+      "required": true
+    },
+    "Process1": {
+      "type": "string"
+    },
+    "Process2": {
+      "type": "string"
+    },
+    "Process3": {
+      "type": "string"
+    },
+    "Process4": {
+      "type": "string"
+    },
+    "Process5": {
+      "type": "string"
+    },
+    "Process6": {
+      "type": "string"
+    },
+    "Description_3": {
+      "type": "text"
+    }
+  }
+}
