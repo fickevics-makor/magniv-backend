@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "landings",
   "info": {
-    "name": "Landing"
+    "name": "Landing",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -72,6 +73,18 @@
     },
     "contactText": {
       "type": "text"
+    },
+    "Paralex": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
     }
   }
 }

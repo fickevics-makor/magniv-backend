@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "contacts",
   "info": {
-    "name": "Blog",
-    "description": ""
+    "name": "Contact"
   },
   "options": {
     "increments": true,
@@ -12,15 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true,
-      "unique": true
+    "Title": {
+      "type": "string"
     },
-    "description": {
-      "type": "text",
-      "required": true,
-      "unique": true
+    "Description": {
+      "type": "string"
     },
     "Image": {
       "model": "file",
@@ -33,12 +28,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "content": {
-      "type": "richtext"
-    },
-    "author": {
-      "type": "string"
     }
   }
 }

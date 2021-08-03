@@ -24,11 +24,6 @@
       "type": "richtext",
       "required": true
     },
-    "slug": {
-      "type": "uid",
-      "targetField": "title",
-      "required": true
-    },
     "category": {
       "model": "category",
       "via": "articles"
